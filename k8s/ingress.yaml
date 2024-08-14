@@ -6,7 +6,7 @@ metadata:
   namespace: goapp
 spec:
   rules:
-  - host: goapp.52.72.93.242.sslip.io
+  - host: goapp.vigne.com.br
     http:
       paths:
       - backend:
