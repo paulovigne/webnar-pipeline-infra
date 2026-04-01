@@ -16,4 +16,4 @@ jobs:
       - name: Update/Create K8S App
         run: |
           kubectl create namespace goapp --dry-run=client -o yaml | ${{ env.KUBECTL }} apply -f -
-          ${{ env.KUBECTL }} apply -f k8s/
+          ${{ env.KUBECTL }} apply -f ${{ vars.DISTRO }}/
