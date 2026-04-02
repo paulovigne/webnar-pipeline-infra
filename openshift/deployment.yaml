@@ -18,7 +18,7 @@ spec:
         app: goapp
     spec:
       containers:
-      - image: paulovigne/webnar-goapp:CODE-main-15
+      - image: paulovigne/webnar-goapp:CODE-main-16
         name: teste
         resources: {}
 status: {}
